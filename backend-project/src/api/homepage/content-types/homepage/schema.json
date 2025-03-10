@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Body": {
+      "type": "dynamiczone",
+      "components": [
+        "body-category.body-text"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Display": {
+      "type": "boolean"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}
